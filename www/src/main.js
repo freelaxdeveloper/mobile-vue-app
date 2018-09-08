@@ -23,6 +23,8 @@ import UserInfo from './pages/UserInfoComponent'
 import Notification from './pages/NotificationComponent'
 import Settings from './pages/SettingsComponent'
 import Contact from './pages/ContactComponent'
+import Menu from './pages/MenuComponent'
+import Chart from './pages/ChartComponent'
 
 axios.defaults.baseURL = 'https://id.hubculture.com';
 axios.defaults.headers.common['Private-Key'] = 'private_5d265de1d9204f6235830ce2'
@@ -48,6 +50,8 @@ var router = new VueRouter({
   // mode: 'history',
   routes: [
     {path: '/', component: Home},
+    {path: '/chart', component: Chart},
+    {path: '/menu', component: Menu},
     {path: '/notification', component: Notification},
     {path: '/contact', component: Contact},
     {path: '/settings', component: Settings},

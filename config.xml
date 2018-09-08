@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.hellocordova" version="1.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Vue HubCulture</name>
+<widget id="io.cordova.hellocordova_no_chartsd" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>HubCulture NEW</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -28,6 +28,12 @@
     <plugin name="cordova-plugin-vibration" spec="^3.1.0" />
     <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
     <platform name="android">
+        <icon density="ldpi" src="res/icon/android/icon-36-ldpi.png" />
+        <icon density="mdpi" src="res/icon/android/icon-48-mdpi.png" />
+        <icon density="hdpi" src="res/icon/android/icon-72-hdpi.png" />
+        <icon density="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
+        <icon density="xxhdpi" src="res/icon/android/icon-144-xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/icon/android/icon-192-xxxhdpi.png" />
         <splash density="land-hdpi" src="res/screen/android/screen-hdpi-landscape.png" />
         <splash density="land-ldpi" src="res/screen/android/screen-ldpi-landscape.png" />
         <splash density="land-mdpi" src="res/screen/android/screen-mdpi-landscape.png" />
@@ -36,11 +42,13 @@
         <splash density="port-ldpi" src="res/screen/android/screen-ldpi-portrait.png" />
         <splash density="port-mdpi" src="res/screen/android/screen-mdpi-portrait.png" />
         <splash density="port-xhdpi" src="res/screen/android/screen-xhdpi-portrait.png" />
+        <splash density="port-xxhdpi" src="res/screen/android/screen-xxhdpi-portrait.png" />
+        <splash density="port-xxxhdpi" src="res/screen/android/screen-xxxhdpi-portrait.png" />
     </platform>
-    <preference name="SplashScreenDelay" value="2000" />
-    <preference name="FadeSplashScreenDuration" value="400" />
+    <preference name="SplashScreenDelay" value="9000" />
+    <preference name="FadeSplashScreenDuration" value="700" />
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
     <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
     <plugin name="cordova-plugin-contacts" spec="^3.0.1" />
-    <engine name="android" spec="^7.0.0" />
+    <engine name="android" spec="^7.1.1" />
 </widget>
